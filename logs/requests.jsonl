@@ -1,0 +1,2 @@
+{"timestamp": "2026-05-16T14:05:01.664503", "question": "WHAT IS the name of candidate", "answer_length": 45, "context_length": 1626, "latency_ms": 2707.22, "source_docs": ["cv_French_Version_Data_En.pdf"], "estimated_tokens": 417}
+{"timestamp": "2026-05-16T14:05:05.392402", "question": "WHAT IS the name of candidate", "answer_length": 45, "context_length": 1626, "latency_ms": 1565.75, "source_docs": ["cv_French_Version_Data_En.pdf"], "estimated_tokens": 417}
