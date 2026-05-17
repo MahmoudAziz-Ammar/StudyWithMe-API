@@ -2,16 +2,18 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Install C++ build tools needed for chromadb
 RUN apt-get update && apt-get install -y \
     build-essential \
     gcc \
     g++ \
     cmake \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Télécharge le modèle pendant le build (pas au runtime)
 
 COPY . .
 

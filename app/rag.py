@@ -2,12 +2,12 @@ import chromadb
 from chromadb.utils import embedding_functions
 import pypdf
 import os
+from chromadb.utils import embedding_functions
 
 # Initialize ChromaDB client (local persistent storage)
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 
-# Use OpenAI-compatible embeddings via Groq
-# We use a local sentence-transformer for embeddings (free, no API call needed)
+
 embedding_fn = embedding_functions.DefaultEmbeddingFunction()
 
 # Get or create our collection (like a table in a regular DB)

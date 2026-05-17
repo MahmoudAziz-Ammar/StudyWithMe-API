@@ -5,11 +5,14 @@ from app.rag import add_document, retrieve_context
 from app.llm import ask_llm
 from app.monitoring import log_request, get_stats
 
+
 app = FastAPI(
     title="Study With Me API",
     description="Upload course PDFs and ask questions about them.",
     version="1.0.0"
 )
+
+
 
 
 # --- Request/Response models ---

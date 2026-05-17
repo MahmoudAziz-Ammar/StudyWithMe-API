@@ -16,3 +16,4 @@ services:
       - "8001:8000"
     volumes:
       - ./chroma_db:/chroma/chroma
+
