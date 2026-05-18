@@ -72,7 +72,7 @@ studymate-api/
 
 ```bash
 # Clone the repo
-git clone https://github.com/MedAmirSoltani/studymate-api.git
+git clone https://github.com/MahmoudAziz-Ammar/StudyWithMe-API.git
 cd studymate-api
 
 # Install dependencies
